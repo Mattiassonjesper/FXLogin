@@ -35,8 +35,9 @@ public class Main extends Application {
 		grid.setVgap(10);
 		grid.setPadding(new Insets(20, 25, 25, 25));
 
-		Text scenetitle = new Text("Welcome");
+		Text scenetitle = new Text("Grit logga här");
 		scenetitle.setFont(Font.font("Tahoma", FontWeight.NORMAL, 20));
+		grid.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 
 		Label eMail = new Label("Email:");
 
